@@ -1,0 +1,31 @@
+{
+  "name": "voting-poll",
+  "version": "1.0.0",
+  "description": "Moral project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehTro20/votingPoll-full-stack.git"
+  },
+  "author": "Mondli Ndaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehTro20/votingPoll-full-stack/issues"
+  },
+  "homepage": "https://github.com/mehTro20/votingPoll-full-stack#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
