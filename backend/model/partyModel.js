@@ -17,7 +17,7 @@ const partySchema = mongoose.Schema({
   },
 
   members: {
-    type: String,
+    type: Number,
     required: [true, "How many memebers"],
   },
 
